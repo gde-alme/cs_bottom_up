@@ -7,17 +7,18 @@
  *	@ft_bye:	print msg
  *	@s_api:		api struct
 */
+
 typedef struct s_api {
 	void	(*hello)(void);
 	void	(*bye)(void);
 }t_api;
 
 void ft_hello() {
-	printf("sup\n");
+	printf("Hello world\n");
 }
 
 void ft_bye() {
-	printf("hala\n");
+	printf("Bye now\n");
 }
 
 t_api	*_initApi() {
